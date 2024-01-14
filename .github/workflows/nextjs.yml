@@ -5,10 +5,11 @@
 name: Deploy Next.js site to Pages
 
 on:
-    # Runs on pushes and pull requests to the repository
+    # Runs on pushes to the "main" branch
     push:
         branches: [main]
 
+    # Runs on open or update pull requests on the "main" branch
     pull_request:
         branches: [main]
 
