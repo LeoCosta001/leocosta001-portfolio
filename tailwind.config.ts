@@ -13,6 +13,11 @@ const config: object = withMT({
                 darkness: '#082f49', // Cyan 950
             },
         },
+        theme: {
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+            },
+        },
     },
     plugins: [],
 } as Config);
